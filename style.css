@@ -1,1 +1,83 @@
-t
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+ul {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu-wrapper {
+    display: inline-block;
+    position: absolute;
+    min-width: 45vw;
+    max-height: 10vh;
+    top: 45px;
+    left: 5vw;
+    text-align: center;
+    background-color: cornflowerblue;
+    border: 1px solid rgb(30, 61, 148);
+    border-radius: 50px;
+    transition: all 1s ease 0s;
+    text-align: center;
+}
+
+.first-floor {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    padding: 10px 15px;
+    width: 8vw;
+    margin: 3px 0 3px 0;
+    transition: all 1s ease 0s;
+}
+
+.first-floor li {
+    text-align: start;
+}
+
+.first-floor:nth-child(n+2) {
+    margin-left: 15px;
+}
+
+.drop-block {
+    display: none;
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: start;
+}
+
+.first-floor:hover .drop-block {
+    display: block;
+}
+
+.first-floor:hover {
+    border-radius: 50px;
+    background-color: rgb(131, 171, 243);
+}
+
+.first-floor a {
+    color: cornsilk;
+}
+
+.first-floor:hover a {
+    color: rgb(255, 255, 255);
+}
+
+
+
+.drop-block {
+    margin-top: 14.35px;
+    padding: 5px;
+    background-color: cornflowerblue;
+    border: 1px solid rgb(30, 61, 148);
+    border-radius: 5px;
+}
